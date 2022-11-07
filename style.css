@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#centerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    height: 20vh;
+    width: 100%;
+}
+
+#centerText h1{
+    font-size: 5vh;
+    color: white;
+    text-shadow: 0px 0px 10px black,
+                0px 0px 20px black,
+                0px 0px 30px black,
+                0px 0px 40px black,
+                0px 0px 50px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 95vh;
+    width: 100%;
+}
+
+.item{
+    height: 100vh;
+    width: 25%;
+}
+
+#box1{
+    background-image: url("img/back1.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+#box1:hover{
+    background-size: cover;
+    width: 85%;
+}
+
+#box2{
+    background-image: url("img/back2.png");
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+#box2:hover{
+    background-size: cover;
+    width: 85%;
+}
+
+#box3{
+    background-image: url("img/back3.png");
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+#box3:hover{
+    background-size: cover;
+    width: 85%;
+}
+
+#box4{
+    background-image: url("img/back4.png");
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+}
+
+#box4:hover{
+    background-size: cover;
+    width: 85%;
+}
